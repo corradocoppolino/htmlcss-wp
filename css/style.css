@@ -21,7 +21,7 @@
 }
 
 .logo{
-    border-right: 1px solid lightgrey;
+    border-right: 1px solid grey;
     padding-right: 20px;
     height:70px;
     width: auto;
@@ -42,14 +42,14 @@ nav li{
 nav li a{
     text-transform: uppercase;
     text-decoration: none;
-    color: lightgray;
+    color: grey;
     line-height: 100px;
 } 
 
 .photo-header{
     height: 400px;
-    background-color: darkcyan;
-    margin-bottom: 20px;
+/*     background-color: darkcyan;
+ */    margin-bottom: 20px;
     border-radius: 10px;
     background-image: url(../img/banner.jpg);
 /*     filter: brightness(60%);
@@ -70,7 +70,7 @@ nav li a{
 
 main{
     margin-bottom: 20px;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
 }
 
 .title-main{
@@ -79,7 +79,7 @@ main{
     padding-top: 20px;
 }
 
-.title-main p{color: lightgrey}
+.title-main p{color: grey}
 
 .col-left,.col-right{
     width: 20%;
@@ -90,6 +90,8 @@ main{
     background-position: center;
     border-radius: 10px;
     height: 200px;
+    background-size: cover;
+    filter: brightness(70%);
 }
 
 .img-central{
@@ -97,6 +99,8 @@ main{
     background-position: center;
     border-radius: 10px;
     height: 200px;
+    background-size: cover;
+    filter: brightness(70%);
 }
 
 .img-right{
@@ -104,6 +108,8 @@ main{
     background-position: center;
     border-radius: 10px;
     height: 200px;
+    background-size: cover;
+    filter: brightness(70%);
 }
 
 
@@ -114,13 +120,23 @@ main{
 
 .col{
     float: left;
-    background-color: skyblue;
-    margin-bottom: 20px;
+/*     background-color: skyblue;
+ */    margin-bottom: 20px;
 }
 
 footer{ 
-    height: 100px;
-    background-color: blueviolet;
+    height: 50px;
+/*     background-color: blueviolet;
+ */}
+
+.col p{color: grey;}
+
+footer p{
+    line-height: 50px;
+    text-align: center;
 }
 
-.col p{color: lightgrey;}
+footer p::after{
+    content:'\2665';
+    color: red;
+}
