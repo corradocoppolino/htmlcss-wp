@@ -49,24 +49,29 @@ nav li a{
 
 .photo-header{
     height: 400px;
-/*     background-color: darkcyan;
- */    margin-bottom: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    background-position: center;
     background-image: url(../img/banner.jpg);
-/*     filter: brightness(60%);
- */    background-position: center;
 }
 
 .background-text{
-    width: 55%;
-    height: 200px;
-    padding-top: 200px;
-    padding-left: 50px;
+    width: 100%;
+    height: 100%;
     background-size: contain;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
-.background-text h3,.background-text p{
-    color: white;
+.text{
+    padding-top: 250px;
+    width: 55%;
+    padding-left: 20px;
+    color:white;
+}
+
+.text h3{
+    line-height: 30px;
 }
 
 main{
