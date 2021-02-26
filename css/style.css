@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.logo-header{
+    margin-top: 20px;
+}
+
+.logo{
+    border-right: 1px solid lightgrey;
+    padding-right: 20px;
+    height:70px;
+    width: auto;
+}
+
+nav{
+    height: 100px;
+/*     background-color: blueviolet;
+ */    margin-bottom: 10px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+nav li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: lightgray;
+    line-height: 100px;
+} 
+
+.photo-header{
+    height: 400px;
+    background-color: darkcyan;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-image: url(../img/banner.jpg);
+/*     filter: brightness(60%);
+ */    background-position: center;
+}
+
+.background-text{
+    width: 55%;
+    height: 200px;
+    padding-top: 200px;
+    padding-left: 50px;
+    background-size: contain;
+}
+
+.background-text h3,.background-text p{
+    color: white;
+}
+
+main{
+    margin-bottom: 20px;
+    background-color: darkgreen;
+}
+
+.title-main{
+    height: 100px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.title-main p{color: lightgrey}
+
+.col-left,.col-right{
+    width: 20%;
+}
+
+.img-left{
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.img-central{
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.img-right{
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+}
+
+
+.col-central{
+    width: 56%;
+    margin: 0 2%;
+}
+
+.col{
+    float: left;
+    background-color: skyblue;
+    margin-bottom: 20px;
+}
+
+footer{ 
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.col p{color: lightgrey;}
