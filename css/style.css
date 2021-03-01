@@ -47,6 +47,10 @@ nav li a{
     line-height: 100px;
 } 
 
+nav li a:hover{
+    color: orangered;
+} 
+
 .photo-header{
     height: 400px;
     margin-bottom: 20px;
